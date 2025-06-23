@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Details</title>
+  <link rel="stylesheet" href="p1.css">
+</head>
+<body>
+  <header>
+    <h1>Health & personal Care</h1>
+    <div class="cart-icon" onclick="toggleCart()">🛒 (<span id="cart-count">0</span>)
+      <div id="cart" class="cart hidden">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <button class= "b1"onclick="checkout()">Checkout</button>
+  </div></div>
+    
+  </header>
+
+  <main>
+    <div class="shop-section">
+        <div class="box1 box"> <div class="box-content"><h2>Savlon Soap</h2>
+            <div class="box-img" style="background-image: url('g1.jpg');background-size: cover;"></div>
+           <div class="inside" ><P>₹68</P><button class="button"onclick="addToCart()">Add to Cart</button></div>
+      </div>
+        </div>
+         <div class="box2 box">
+             <div class="box-content"><h2>BP Machine</h2>
+            <div class="box-img" style="background-image: url('g2.jpg');background-size: cover;"></div>
+           <div class="inside" ><P>₹300</P><button class="button" onclick="addToCart()">Add to Cart</button></div> 
+      </div>
+         </div>
+          <div class="box3 box">
+             <div class="box-content"><h2>Body lotion</h2>
+            <div class="box-img" style="background-image: url('g3.jpg');background-size: contain;"></div>
+          <div class="inside" ><P>₹89</P><button class="button" onclick="addToCart()">Add to Cart</button></div>  
+      </div>
+          </div>
+           <div class="box4 box">
+             <div class="box-content"><h2>Face wash</h2>
+            <div class="box-img" style="background-image: url('g4.jpg');background-size: contain;"></div>
+           <div class="inside" ><P>₹55</P><button class="button" onclick="addToCart()">Add to Cart</button>
+      </div>
+           </div></div> 
+           <div class="box5 box">
+             <div class="box-content"><h2>Toothpaste</h2>
+            <div class="box-img" style="background-image: url('g5.jpg'); background-size: contain; background-repeat: no-repeat;"></div>
+          <div class="inside" > <P>₹90</P><button class="button" onclick="addToCart()">Add to Cart</button></div> 
+      </div>
+           </div>
+           <div class="box6 box">
+             <div class="box-content"><h2>Dettol hand wash</h2>
+            <div class="box-img" style="background-image: url('g6.jpg');background-size: cover;"></div>
+          <div class="inside" ><P>₹173</P><button class="button" onclick="addToCart()">Add to Cart</button></div>  
+      </div>
+           </div>
+           <div class="box7 box">
+             <div class="box-content"><h2>Dettol Soap</h2>
+            <div class="box-img" style="background-image: url('g7.jpg');background-size: cover;"></div>
+           <div class="inside" ><P>₹150</P><button class="button" onclick="addToCart()">Add to Cart</button></div> 
+    </div>
+           </div>
+           <div class="box8 box">
+             <div class="box-content"><h2>Hair Brush</h2>
+            <div class="box-img" style="background-image: url('g8.jpg');background-size: cover;"></div>
+          <div class="inside" ><P>₹100</P><button class="button"onclick="addToCart()">Add to Cart</button></div>  
+           </div>
+    </div>
+  </main>
+     <footer>
+        <div class="foot-panel2">
+            <h2> Thanks for Visiting My Store</h2>
+            
+        </div>
+        <div class="foot-panel3">
+            © 2025, My Store.com
+        </div>
+    </footer>
+  <script src="script.js"></script>
+</body>
+</html>
